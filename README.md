@@ -1,17 +1,26 @@
-# mini_cricket_app
+# Mini Cricket
 
-A new Flutter project.
+A simple cricket scoring game built with Flutter for the SE303.3 Mobile Application Development module at NSBM Green University.
 
-## Getting Started
+## How it works
+- The game starts with 0 runs and 6 balls (one over).
+- Press **Bat** to play a ball. Each ball scores a random 0 to 6 runs.
+- The result of the last ball is shown ("No Runs", "3 Runs", etc.).
+- When the balls reach 0, the button turns into a red **Restart** button that resets the game.
 
-This project is a starting point for a Flutter application.
+## Built with
+- Flutter and Dart
+- Material Design widgets
 
-A few resources to get you started if this is your first Flutter project:
+## Run the app
+```
+flutter pub get
+flutter run
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Project structure
+- `lib/main.dart` - the app UI and game logic
+- `assets/images` - bat and ball images
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+Aseka Dissanayaka
