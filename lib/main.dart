@@ -11,11 +11,11 @@ class MiniCricketApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Mini Cricket',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: const Color(0xFF1E88E5),
-        debugShowCheckedModeBanner: false,
       ),
       home: const CricketHomePage(),
     );
@@ -44,7 +44,7 @@ class _CricketHomePageState extends State<CricketHomePage>
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 400),
+      duration: const Duration(milliseconds: 700),
     );
   }
 
